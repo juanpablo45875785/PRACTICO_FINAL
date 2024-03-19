@@ -12,3 +12,4 @@ E:\User\Desktop\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\refint\PRACTICO.dll
 E:\User\Desktop\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.pdb
 E:\User\Desktop\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.genruntimeconfig.cache
 E:\User\Desktop\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\ref\PRACTICO.dll
+E:\User\Desktop\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.sourcelink.json
