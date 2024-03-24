@@ -6,8 +6,8 @@ namespace Practico
     static void Main (string[] args)
     {
          
-            Matrices matriz = new Matrices(5, 5);
-            matriz.Ejercicio2();
+        Matrices matriz = new Matrices();
+        matriz.Ejercicio5();
 
     }
     }
