@@ -5,10 +5,11 @@ namespace Practico
     {
     static void Main (string[] args)
     {
-         
-            Matrices matriz = new Matrices(5, 5);
-            matriz.Ejercicio2();
-
+    
+        
+            Vectores vectores = new Vectores(); 
+            vectores.ejercicio1(); 
+        
     }
     }
 }
