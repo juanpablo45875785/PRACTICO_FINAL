@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRACTICO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60f2878b2c88b19441f4a255dd412b7f8062bbac")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e29ca7806249780e618beee2ed319e2b437b7e51")]
->>>>>>> cirilo
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fff1ad124cea4257b9a6207cbdda6a30ac4ade25")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRACTICO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRACTICO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
