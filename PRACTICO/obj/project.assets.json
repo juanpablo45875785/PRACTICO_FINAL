@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRACTICO FINAL\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\FINAL\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
       "projectName": "PRACTICO",
-      "projectPath": "D:\\PRACTICO FINAL\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\Desktop\\FINAL\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "D:\\PRACTICO FINAL\\PRACTICO_FINAL\\PRACTICO\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\Desktop\\FINAL\\PRACTICO_FINAL\\PRACTICO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
