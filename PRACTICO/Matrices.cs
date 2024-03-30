@@ -13,22 +13,33 @@ namespace Practico
             columnas = 0;
             datos = null;
         }
-        
+
         public void Ejercicio1()
         {
-            Console.WriteLine("Ingrese el número de filas:");
-            filas = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Ingrese el número de columnas:");
-            columnas = int.Parse(Console.ReadLine());
             datos = GenerarMatriz(filas, columnas);
 
+            Console.WriteLine("Ingrese el número de filas: (Ejercicio 1)");
+            string inputFilas = Console.ReadLine();
+            if (!int.TryParse(inputFilas, out filas))
+            {
+                Console.WriteLine("Por favor, ingrese un número válido para las filas.");
+                return;
+            }
+
+            Console.WriteLine("Ingrese el número de columnas: (Ejercicio 1)");
+            string inputColumnas = Console.ReadLine();
+            if (!int.TryParse(inputColumnas, out columnas))
+            {
+                Console.WriteLine("Por favor, ingrese un número válido para las columnas.");
+                return;
+            }
+            datos = GenerarMatriz(filas, columnas);
             imprimir();
         }
 
 
         static int[,] GenerarMatriz(int filas, int columnas)
-        {  
+        {
             int[,] matriz = new int[filas, columnas];
             int numero = 15;
 
@@ -51,13 +62,24 @@ namespace Practico
         }
         public void Ejercicio2()
         {
-            Console.WriteLine("Ingrese el número de filas:");
-            filas = int.Parse(Console.ReadLine());
+            datos = GenerarMatriz(filas, columnas);
 
-            Console.WriteLine("Ingrese el número de columnas:");
-            columnas = int.Parse(Console.ReadLine());
-            datos = ejercicio2(filas, columnas);
+            Console.WriteLine("Ingrese el número de filas: (Ejercicio 2)");
+            string inputFilas = Console.ReadLine();
+            if (!int.TryParse(inputFilas, out filas))
+            {
+                Console.WriteLine("Por favor, ingrese un número válido para las filas.");
+                return;
+            }
 
+            Console.WriteLine("Ingrese el número de columnas: (Ejercicio 2)");
+            string inputColumnas = Console.ReadLine();
+            if (!int.TryParse(inputColumnas, out columnas))
+            {
+                Console.WriteLine("Por favor, ingrese un número válido para las columnas.");
+                return;
+            }
+            datos = GenerarMatriz(filas, columnas);
             imprimir();
         }
 
@@ -79,10 +101,10 @@ namespace Practico
         }
         public void Ejercicio3()
         {
-            Console.WriteLine("Ingrese el número de filas:");
+            Console.WriteLine("Ingrese el número de filas: (Ejercicio 3)");
             filas = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese el número de columnas:");
+            Console.WriteLine("Ingrese el número de columnas: (Ejercicio 3)");
             columnas = int.Parse(Console.ReadLine());
             datos = Serpiente(filas, columnas);
 
@@ -120,10 +142,10 @@ namespace Practico
         }
         public void Ejercicio4()
         {
-            Console.WriteLine("Ingrese el número de filas:");
+            Console.WriteLine("Ingrese el número de filas: (Ejercicio 4)");
             filas = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese el número de columnas:");
+            Console.WriteLine("Ingrese el número de columnas: (Ejercicio 4)");
             columnas = int.Parse(Console.ReadLine());
             datos = GenerarCuadradoMagico(filas, columnas);
 
@@ -162,10 +184,10 @@ namespace Practico
 
         public void Ejercicio5()
         {
-            Console.WriteLine("Ingrese el número de filas:");
+            Console.WriteLine("Ingrese el número de filas: (Ejercicio 5)");
             filas = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese el número de columnas:");
+            Console.WriteLine("Ingrese el número de columnas: (Ejercicio 5)");
             columnas = int.Parse(Console.ReadLine());
 
             datos = new int[filas, columnas];
