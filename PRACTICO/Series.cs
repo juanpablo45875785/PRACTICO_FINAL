@@ -7,116 +7,175 @@ namespace Practico
 {
     public class Series 
     {
-        static void Main(string[] args)
+        
+        public static void Ejercicio1()
         {
-            int n = 5; // Cambia este valor por el número de término de Fibonacci que desees obtener
+            // Mostramos la secuencia de Fibonacci inicial
+            Console.WriteLine("Secuencia de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13");
+
+            // Solicitamos al usuario que ingrese la posición del término de Fibonacci que desea calcular
+            Console.Write("Ingrese la posición del término de Fibonacci que desea calcular: ");
+            int n = int.Parse(Console.ReadLine());
+
+            // Calculamos el término de Fibonacci en la posición dada
             int resultado = Fibonacci(n);
-            Console.WriteLine("0,1,1,2,3,5,8................");
-            Console.WriteLine($"El {n}-ésimo término de Fibonacci es: {resultado}\n");
 
-            int m = 5; // Cambia este valor por el número de término que desees obtener 
-            int resultado1 = ObtenerNEsimoNumero(m);
-            Console.WriteLine($"El {m}-ésimo número de la serie es: {resultado1}\n");
-            
-            int o = 5; // Cambia este valor por la cantidad de términos que deseas sumar
-            int[] serie1 = {0, 2, 4, 6, 8, 10, 12, 14, 16}; // Cambia esta serie según sea necesario
-            int suma = SumaSerie(o, serie1);
-            Console.WriteLine("la serie es: " + string.Join(" ", serie1)+"...........");
-            Console.WriteLine($"suma de los primeros {o} términos: {suma}\n");
-
-            int p = 6; // Cambia este valor por el número de término que desees obtener 
-            int resultado2 = ObtenerNEsimoNumero1(p);
-            Console.WriteLine($"El {p}-ésimo número de la serie es: {resultado2}\n");
-
-            int[] serie = { 1, 2, 3, 3, 4, 5, 6, 7, 7, 8 };
-            int q = 2; // Número de términos a considerar
-            int termino = 2; // Valor del término para buscar los pares
-            int sumaParesPrimerosN = SumaTerminosParesPrimerosN(serie, q, termino);
-            Console.WriteLine($"La suma de los términos pares de los primeros {q} términos de la serie es: {sumaParesPrimerosN}");
+            // Mostramos el resultado en la consola
+            Console.WriteLine($"El {n}-ésimo término de Fibonacci es: {resultado}");
         }
 
-        static int Fibonacci(int n)
+        private static int Fibonacci(int n)
         {
-            if (n <= 1)
-                return n;
-            else
-                return Fibonacci(n - 1) + Fibonacci(n - 2);
+            // Definimos la secuencia de Fibonacci manualmente
+            int[] secuencia = {0, 1, 1, 2, 3, 5, 8, 13};
+
+            // Validamos si la posición dada está dentro del rango de la secuencia manual
+            if (n < 0 || n >= secuencia.Length)
+            {
+                throw new ArgumentOutOfRangeException(nameof(n), "La posición está fuera del rango de la secuencia.");
+            }
+
+            // Retornamos el valor en la posición dada
+            return secuencia[n - 1]; // Ajustamos la posición para que empiece desde 1 en lugar de 0
         }
+        public static void Ejercicio2()
+        {
+            // Mostramos la serie inicial
+            int[] serie = {1, 2, 3, 6, 7, 14, 15, 30, 31};
+            Console.WriteLine("Serie: " + string.Join(", ", serie));
+
+            // Solicitamos al usuario que ingrese la posición del término de la serie que desea calcular
+            Console.Write("Ingrese la posición del término de la serie que desea calcular: ");
+            int n = int.Parse(Console.ReadLine());
+
+            // Calculamos el término de la serie en la posición dada
+            int resultado = ObtenerNEsimoNumero1(n, serie);
+
+            // Mostramos el resultado en la consola
+            Console.WriteLine($"El {n}-ésimo término de la serie es: {resultado}");
+        }
+
+        private static int ObtenerNEsimoNumero1(int n, int[] serie)
+        {
+            // Validamos si la posición dada está dentro del rango de la serie
+            if (n < 1 || n > serie.Length)
+            {
+                throw new ArgumentOutOfRangeException(nameof(n), "La posición está fuera del rango de la serie.");
+            }
+
+            // Retornamos el valor en la posición dada
+            return serie[n - 1];
+        }
+    
 
         /*devuelve el n-ésimo numero de la serie*/
-        static int ObtenerNEsimoNumero(int m)
+        public static void Ejercicio3()
         {
-            int[] serie = {1,2,3,6,7,14,15,30,31,45,76};
-            Console.WriteLine("la serie es: " + string.Join(" ", serie)+"...........");
-            int longitudSerie = serie.Length;
-            // Si n es menor o igual a la longitud de la serie, devolvemos el carácter en la posición n-1
-            if (m <= longitudSerie)
-                return serie[m - 1];
-            else
-            {
-                // Si n es mayor que la longitud de la serie, calculamos el índice de repetición
-                int repeticiones = (m - longitudSerie) / 10;
-                int indiceEnSerie = (m - longitudSerie) % 10;
-                // Devolvemos el carácter en la posición calculada
-                return serie[indiceEnSerie];
-            }
+            int[] serie = {0,2,4,6,8,10,12,14,16,18,20};
+            Console.WriteLine("La serie es: " + string.Join(" ", serie));
+
+            // Solicitamos al usuario que ingrese la cantidad de términos que desea sumar
+            Console.Write("Ingrese la cantidad de términos que desea sumar: ");
+            int o = int.Parse(Console.ReadLine());
+
+            // Calculamos la suma de los primeros n términos de la serie
+            int suma = SumaSerie(o, serie);
+
+            // Mostramos la suma en la consola
+            Console.WriteLine($"La suma de los primeros {o} términos es: {suma}");
         }
 
-        /*suma de los primeros n terminos de la serie */
-        static int SumaSerie(int o, int[] serie)
+        private static int SumaSerie(int n, int[] serie)
         {
             // Inicializamos la suma en 0
             int suma = 0;
+
             // Iteramos sobre los primeros n términos de la serie
-            for (int i = 0; i < o; i++)
+            for (int i = 0; i < n; i++)
             {
                 // Añadimos cada término de la serie a la suma total
-                suma += serie[i];
+                suma += ObtenerNEsimoNumero(i + 1, serie);
             }
+
             // Devolvemos la suma total
             return suma;
         }
 
-        /*devuelve el n-ésimo numero de la serie2*/
-        static int ObtenerNEsimoNumero1(int p)
+        private static int ObtenerNEsimoNumero(int m, int[] serie)
         {
-            int[] serie = {1, 3, 7, 15,31,63,127,255};
-            Console.WriteLine("la serie es: " + string.Join(" ", serie)+".........");
             int longitudSerie = serie.Length;
-            // Si n es menor o igual a la longitud de la serie, devolvemos el carácter en la posición n-1
-            if (p <= longitudSerie)
-                return serie[p - 1];
+            // Si m es menor o igual a la longitud de la serie, devolvemos el elemento en la posición m-1
+            if (m <= longitudSerie)
+                return serie[m - 1];
             else
             {
-                // Si n es mayor que la longitud de la serie, calculamos el índice de repetición
-                int repeticiones = (p - longitudSerie) / 10;
-                int indiceEnSerie = (p - longitudSerie) % 10;
-                // Devolvemos el carácter en la posición calculada
+                // Si m es mayor que la longitud de la serie, calculamos el índice de repetición
+                int repeticiones = (m - longitudSerie) / 10;
+                int indiceEnSerie = (m - longitudSerie) % 10;
+                // Devolvemos el elemento en la posición calculada
                 return serie[indiceEnSerie];
             }
         }
+     
+        public static void Ejercicio4()
+        {
+            // Mostramos la serie inicial
+            int[] serie = {1,3,7,15,31,63,127,255};
+            Console.WriteLine("Serie: " + string.Join(", ", serie));
 
-        static int SumaTerminosParesPrimerosN(int[] serie, int q, int termino)
+            // Solicitamos al usuario que ingrese la posición del término de la serie que desea calcular
+            Console.Write("Ingrese la posición del término de la serie que desea calcular: ");
+            int n = int.Parse(Console.ReadLine());
+
+            // Calculamos el término de la serie en la posición dada
+            int resultado = ObtenerNEsimoNumero4(n, serie);
+
+            // Mostramos el resultado en la consola
+            Console.WriteLine($"El {n}-ésimo término de la serie es: {resultado}");
+        }
+
+        private static int ObtenerNEsimoNumero4(int n, int[] serie)
+        {
+            // Validamos si la posición dada está dentro del rango de la serie
+            if (n < 1 || n > serie.Length)
+            {
+                throw new ArgumentOutOfRangeException(nameof(n), "La posición está fuera del rango de la serie.");
+            }
+
+            // Retornamos el valor en la posición dada
+            return serie[n - 1];
+        }
+        public static void Ejercicio5()
+        {
+            int[] serie = { 1, 2, 4, 5, 10, 12, 13, 26, 28, 29 };
+            Console.WriteLine("Serie: " + string.Join(", ", serie));
+
+            Console.Write("Ingrese la posición hasta donde desea sumar: ");
+            int posicion = int.Parse(Console.ReadLine());
+
+            int sumaParesHastaPosicion = SumaParesHastaPosicion(serie, posicion);
+            Console.WriteLine($"La suma de los términos pares hasta la posición {posicion} es: {sumaParesHastaPosicion}");
+        }
+
+        private static int SumaParesHastaPosicion(int[] serie, int posicion)
         {
             int suma = 0;
             int contador = 0;
 
             foreach (int numero in serie)
             {
-                if (contador >= q)
-                {
-                    break; // Si ya hemos revisado los primeros n términos, salimos del bucle
-                }
+                if (contador == posicion)
+                    break;
 
-                if (numero % termino == 0)
+                if (numero % 2 == 0)
                 {
                     suma += numero;
-                    contador++;
                 }
+
+                contador++;
             }
 
             return suma;
         }
-    
     }
 }
