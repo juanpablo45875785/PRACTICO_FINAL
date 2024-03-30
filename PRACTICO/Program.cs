@@ -5,6 +5,7 @@ namespace Practico
     {
     static void Main (string[] args)
     {
+<<<<<<< HEAD
          
 <<<<<<< HEAD
         
@@ -25,6 +26,13 @@ namespace Practico
 >>>>>>> CarlosEdgar
 
     }
+=======
+            Vectores.ejercicio1();
+            Vectores.ejercicio2();
+            Vectores.ejercicio3();
+            Vectores.ejercicio4();
+            Vectores.ejercicio5();
+>>>>>>> Danny
     }
 }
-
+}

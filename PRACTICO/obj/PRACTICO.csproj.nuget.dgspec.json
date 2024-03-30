@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\User\\Desktop\\carlos\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "E:\\User\\Desktop\\carlos\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "E:\\User\\Desktop\\carlos\\PRACTICO_FINAL\\PRACTICO\\obj\\",
+=======
+    "E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj": {}
+  },
+  "projects": {
+    "E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
+        "projectName": "PRACTICO",
+        "projectPath": "E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\obj\\",
+>>>>>>> Danny
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
