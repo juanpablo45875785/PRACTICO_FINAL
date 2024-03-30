@@ -3,6 +3,7 @@ namespace Practico
 {
     public class Program
     {
+<<<<<<< HEAD
     static void Main (string[] args)
     {
 <<<<<<< HEAD
@@ -45,3 +46,15 @@ namespace Practico
     }
 }
 }
+=======
+        static void Main (string[] args)
+        {     
+            Series.Ejercicio1();
+            Series.Ejercicio2();
+            Series.Ejercicio3();
+            Series.Ejercicio4();
+            Series.Ejercicio5();
+        }
+    }
+}
+>>>>>>> cirilo
