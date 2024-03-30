@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "S2f6gTXQlQS3zdHeKU4GmgrM569ttmwP6IFUDZsKAabm560JWEZUWnVx6Tb7FU72qfjqf7+U/zqnesNdk1CIng==",
+  "dgSpecHash": "1fSkvmV5z4GL2a2SvvEgw3rLJKtZlSk7Fppsj/nACYxOx3yPmS62b13Sg1w4vA8Qw17RdPNvjEOmy9nBdAk8NQ==",
   "success": true,
-  "projectFilePath": "E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
+  "projectFilePath": "E:\\User\\Desktop\\erick\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file E:\\User\\Desktop\\erick\\PRACTICO_FINAL\\PRACTICO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

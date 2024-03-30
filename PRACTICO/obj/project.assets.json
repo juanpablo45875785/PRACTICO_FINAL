@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
+      "projectUniqueName": "E:\\User\\Desktop\\erick\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
       "projectName": "PRACTICO",
-      "projectPath": "E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
+      "projectPath": "E:\\User\\Desktop\\erick\\PRACTICO_FINAL\\PRACTICO\\PRACTICO.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\obj\\",
+      "outputPath": "E:\\User\\Desktop\\erick\\PRACTICO_FINAL\\PRACTICO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -75,7 +75,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\User\\Desktop\\danny\\PRACTICO_FINAL\\PRACTICO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file E:\\User\\Desktop\\erick\\PRACTICO_FINAL\\PRACTICO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

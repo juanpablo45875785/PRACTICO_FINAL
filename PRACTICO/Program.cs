@@ -8,6 +8,7 @@ namespace Practico
 <<<<<<< HEAD
          
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         Matrices matrices = new Matrices();
 
@@ -24,6 +25,14 @@ namespace Practico
             Cadenas.Ejercicio4();
             Cadenas.Ejercicio5();
 >>>>>>> CarlosEdgar
+=======
+            Numeros.Ejercicio1();
+            Numeros.Ejercicio2();
+            Numeros.Ejercicio3();
+            Numeros.Ejercicio4();
+            Numeros.Ejercicio5();
+            
+>>>>>>> erick
 
     }
 =======
