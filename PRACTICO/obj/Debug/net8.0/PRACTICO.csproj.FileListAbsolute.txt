@@ -14,8 +14,6 @@ E:\User\Desktop\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.genruntimeconf
 E:\User\Desktop\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\ref\PRACTICO.dll
 E:\User\Desktop\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.sourcelink.json
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.exe
 D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.deps.json
 D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.runtimeconfig.json
@@ -31,7 +29,6 @@ D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\refint\PRACTIC
 D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.pdb
 D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.genruntimeconfig.cache
 D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\ref\PRACTICO.dll
-<<<<<<< HEAD
 =======
 E:\User\Desktop\carlos\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.exe
 E:\User\Desktop\carlos\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.deps.json
@@ -49,7 +46,6 @@ E:\User\Desktop\carlos\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.pdb
 E:\User\Desktop\carlos\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.genruntimeconfig.cache
 E:\User\Desktop\carlos\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\ref\PRACTICO.dll
 >>>>>>> CarlosEdgar
-=======
 D:\PRACTICO FINAL\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.GeneratedMSBuildEditorConfig.editorconfig
 D:\PRACTICO FINAL\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.AssemblyInfoInputs.cache
 D:\PRACTICO FINAL\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.AssemblyInfo.cs
@@ -96,7 +92,6 @@ E:\User\Desktop\danny\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.pdb
 E:\User\Desktop\danny\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.genruntimeconfig.cache
 E:\User\Desktop\danny\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\ref\PRACTICO.dll
 >>>>>>> Danny
-=======
 E:\User\Desktop\erick\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.exe
 E:\User\Desktop\erick\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.deps.json
 E:\User\Desktop\erick\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.runtimeconfig.json
@@ -113,7 +108,6 @@ E:\User\Desktop\erick\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.pdb
 E:\User\Desktop\erick\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.genruntimeconfig.cache
 E:\User\Desktop\erick\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\ref\PRACTICO.dll
 >>>>>>> erick
-=======
 D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.GeneratedMSBuildEditorConfig.editorconfig
 D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.AssemblyInfoInputs.cache
 D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.AssemblyInfo.cs
@@ -138,3 +132,18 @@ E:\User\Desktop\Nueva carpeta\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.
 E:\User\Desktop\Nueva carpeta\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.genruntimeconfig.cache
 E:\User\Desktop\Nueva carpeta\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\ref\PRACTICO.dll
 >>>>>>> cirilo
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.exe
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.deps.json
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.runtimeconfig.json
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.dll
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\bin\Debug\net8.0\PRACTICO.pdb
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.GeneratedMSBuildEditorConfig.editorconfig
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.AssemblyInfoInputs.cache
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.AssemblyInfo.cs
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.csproj.CoreCompileInputs.cache
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.sourcelink.json
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.dll
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\refint\PRACTICO.dll
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.pdb
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.genruntimeconfig.cache
+E:\User\Desktop\terminado todo\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\ref\PRACTICO.dll
