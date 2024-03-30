@@ -5,8 +5,6 @@ namespace Practico
     {
     static void Main (string[] args)
     {
-    
-            Vectores vectores = new Vectores();
             Vectores.ejercicio1();
             Vectores.ejercicio2();
             Vectores.ejercicio3();
