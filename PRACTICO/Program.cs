@@ -6,6 +6,7 @@ namespace Practico
     static void Main (string[] args)
     {
          
+<<<<<<< HEAD
         
         Matrices matrices = new Matrices();
 
@@ -15,6 +16,13 @@ namespace Practico
             matrices.Ejercicio4();
             matrices.Ejercicio5();
             
+=======
+            Cadenas.Ejercicio1();
+            Cadenas.Ejercicio2();
+            Cadenas.Ejercicio3();
+            Cadenas.Ejercicio4();
+            Cadenas.Ejercicio5();
+>>>>>>> CarlosEdgar
 
     }
     }

@@ -4,5 +4,10 @@ Integrantes del grupo
 1-.Juan Pablo Tapeosi Chamo
 2-.Erick Nelson Saavedra Saavedra
 3-.Danny Carita Jimenez
+<<<<<<< HEAD
 4-.Cirilo Rodríguez chuviru
 5-.Carlos Edgar Coronado Luján
+=======
+4-. Carlos Edgar Coronado Luján
+5-. 
+>>>>>>> CarlosEdgar
