@@ -28,3 +28,11 @@ D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\refint\PRACTIC
 D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.pdb
 D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.genruntimeconfig.cache
 D:\cirilo\practico final\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\ref\PRACTICO.dll
+D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.GeneratedMSBuildEditorConfig.editorconfig
+D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.AssemblyInfoInputs.cache
+D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.AssemblyInfo.cs
+D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.csproj.CoreCompileInputs.cache
+D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.sourcelink.json
+D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.dll
+D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\refint\PRACTICO.dll
+D:\cirilo\PRACTICO PROG\PRACTICO_FINAL\PRACTICO\obj\Debug\net8.0\PRACTICO.pdb
